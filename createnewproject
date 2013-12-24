@@ -8,8 +8,8 @@ fi
 
 projectName=$1
 
-mkdir $projectName
-mkdir $projectName/preproduction
-mkdir $projectName/production
-mkdir $projectName/postproduction
-mkdir $projectName/completed
+mkdir $projectName > /dev/null
+mkdir $projectName/preproduction > /dev/null
+mkdir $projectName/production > /dev/null
+mkdir $projectName/postproduction > /dev/null
+mkdir $projectName/completed > /dev/null
